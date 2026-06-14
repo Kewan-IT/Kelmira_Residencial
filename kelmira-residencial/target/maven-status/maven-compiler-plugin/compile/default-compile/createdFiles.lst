@@ -1,1 +1,6 @@
-mz/kelmira/TesteConexao.class
+mz/kelmira/servlet/QuartoServlet.class
+mz/kelmira/model/Quarto.class
+mz/kelmira/util/ConexaoDB.class
+mz/kelmira/servlet/LogoutServlet.class
+mz/kelmira/servlet/LoginServlet.class
+mz/kelmira/dao/QuartoDAO.class

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - Kelmira Residencial</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Kelmira Residencial</h2>
+        <nav>
+            <a href="dashboard.html" class="active">🏠 Início</a>
+            <a href="quartos">🛏️ Quartos</a>
+            <a href="clientes.html">👤 Clientes</a>
+            <a href="reservas.html">📅 Reservas</a>
+            <a href="logout">🚪 Sair</a>
+        </nav>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <h1>Bem-vindo(a)!</h1>
+        </header>
+
+        <section class="cards">
+            <div class="card">
+                <h3>Quartos Disponíveis</h3>
+                <p class="numero" id="qtdQuartosDisp">--</p>
+            </div>
+            <div class="card">
+                <h3>Reservas Ativas</h3>
+                <p class="numero" id="qtdReservas">--</p>
+            </div>
+            <div class="card">
+                <h3>Clientes Registados</h3>
+                <p class="numero" id="qtdClientes">--</p>
+            </div>
+        </section>
+
+        <section class="acoes">
+            <h2>Ações Rápidas</h2>
+            <a href="quartos.html" class="botao">+ Novo Quarto</a>
+            <a href="clientes.html" class="botao">+ Novo Cliente</a>
+            <a href="reservas.html" class="botao">+ Nova Reserva</a>
+        </section>
+    </div>
+</body>
+</html>

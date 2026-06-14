@@ -1,1 +1,6 @@
-/workspaces/Kelmira_Residencial/kelmira-residencial/src/main/java/mz/kelmira/TesteConexao.java
+/workspaces/Kelmira_Residencial/kelmira-residencial/src/main/java/mz/kelmira/dao/QuartoDAO.java
+/workspaces/Kelmira_Residencial/kelmira-residencial/src/main/java/mz/kelmira/model/Quarto.java
+/workspaces/Kelmira_Residencial/kelmira-residencial/src/main/java/mz/kelmira/servlet/LoginServlet.java
+/workspaces/Kelmira_Residencial/kelmira-residencial/src/main/java/mz/kelmira/servlet/LogoutServlet.java
+/workspaces/Kelmira_Residencial/kelmira-residencial/src/main/java/mz/kelmira/servlet/QuartoServlet.java
+/workspaces/Kelmira_Residencial/kelmira-residencial/src/main/java/mz/kelmira/util/ConexaoDB.java

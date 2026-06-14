@@ -1,0 +1,93 @@
+.form-card, .table-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin-bottom: 30px;
+}
+
+.form-card h2, .table-card h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.form-card label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.form-card input,
+.form-card select {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-card button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-card button:hover {
+    background-color: #1a252f;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+table th {
+    color: #7f8c8d;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+table a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+.status {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.status.disponivel {
+    background-color: #d4efdf;
+    color: #1e8449;
+}
+
+.status.ocupado {
+    background-color: #fadbd8;
+    color: #c0392b;
+}
+
+.status.manutencao {
+    background-color: #fdebd0;
+    color: #b9770e;
+}
