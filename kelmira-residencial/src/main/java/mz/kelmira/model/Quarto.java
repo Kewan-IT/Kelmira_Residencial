@@ -6,15 +6,17 @@ public class Quarto {
     private String tipo;
     private double preco;
     private String status;
+    private String imagem;
 
     public Quarto() {}
 
-    public Quarto(int id, String numero, String tipo, double preco, String status) {
+    public Quarto(int id, String numero, String tipo, double preco, String status, String imagem) {
         this.id = id;
         this.numero = numero;
         this.tipo = tipo;
         this.preco = preco;
         this.status = status;
+        this.imagem = imagem;
     }
 
     public int getId() { return id; }
@@ -22,7 +24,6 @@ public class Quarto {
 
     public String getNumero() { return numero; }
     public void setNumero(String numero) { this.numero = numero; }
-
     public String getTipo() { return tipo; }
     public void setTipo(String tipo) { this.tipo = tipo; }
 
@@ -31,4 +32,7 @@ public class Quarto {
 
     public String getStatus() { return status; }
     public void setStatus(String status) { this.status = status; }
+
+    public String getImagem() { return imagem; }
+    public void setImagem(String imagem) { this.imagem = imagem; }
 }

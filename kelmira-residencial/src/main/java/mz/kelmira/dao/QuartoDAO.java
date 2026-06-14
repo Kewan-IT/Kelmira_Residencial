@@ -23,7 +23,8 @@ public class QuartoDAO {
                     rs.getString("numero"),
                     rs.getString("tipo"),
                     rs.getDouble("preco"),
-                    rs.getString("status")
+                    rs.getString("status"),
+                    rs.getString("imagem")
                 ));
             }
         }
@@ -45,7 +46,8 @@ public class QuartoDAO {
                     rs.getString("numero"),
                     rs.getString("tipo"),
                     rs.getDouble("preco"),
-                    rs.getString("status")
+                    rs.getString("status"),
+                    rs.getString("imagem")
                 );
             }
         }
@@ -53,7 +55,7 @@ public class QuartoDAO {
     }
 
     public void inserir(Quarto q) throws SQLException {
-        String sql = "INSERT INTO quartos (numero, tipo, preco, status) VALUES (?, ?, ?, ?)";
+        String sql = "INSERT INTO quartos (numero, tipo, preco, status, imagem) VALUES (?, ?, ?, ?, ?)";
 
         try (Connection conn = ConexaoDB.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
@@ -62,12 +64,13 @@ public class QuartoDAO {
             stmt.setString(2, q.getTipo());
             stmt.setDouble(3, q.getPreco());
             stmt.setString(4, q.getStatus());
+            stmt.setString(5, q.getImagem());
             stmt.executeUpdate();
         }
     }
 
     public void atualizar(Quarto q) throws SQLException {
-        String sql = "UPDATE quartos SET numero=?, tipo=?, preco=?, status=? WHERE id=?";
+        String sql = "UPDATE quartos SET numero=?, tipo=?, preco=?, status=?, imagem=? WHERE id=?";
 
         try (Connection conn = ConexaoDB.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
@@ -76,7 +79,8 @@ public class QuartoDAO {
             stmt.setString(2, q.getTipo());
             stmt.setDouble(3, q.getPreco());
             stmt.setString(4, q.getStatus());
-            stmt.setInt(5, q.getId());
+            stmt.setString(5, q.getImagem());
+            stmt.setInt(6, q.getId());
             stmt.executeUpdate();
         }
     }

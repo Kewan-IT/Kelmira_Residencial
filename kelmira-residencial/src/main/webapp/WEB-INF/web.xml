@@ -32,4 +32,40 @@
         <servlet-name>QuartoServlet</servlet-name>
         <url-pattern>/quartos</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>ClienteServlet</servlet-name>
+        <servlet-class>mz.kelmira.servlet.ClienteServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ClienteServlet</servlet-name>
+        <url-pattern>/clientes</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ReservaServlet</servlet-name>
+        <servlet-class>mz.kelmira.servlet.ReservaServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ReservaServlet</servlet-name>
+        <url-pattern>/reservas</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ComprovanteServlet</servlet-name>
+        <servlet-class>mz.kelmira.servlet.ComprovanteServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ComprovanteServlet</servlet-name>
+        <url-pattern>/comprovante</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DashboardServlet</servlet-name>
+        <servlet-class>mz.kelmira.servlet.DashboardServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DashboardServlet</servlet-name>
+        <url-pattern>/dashboard</url-pattern>
+    </servlet-mapping>
 </web-app>

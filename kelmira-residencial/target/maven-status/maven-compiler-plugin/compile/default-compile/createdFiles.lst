@@ -1,6 +1,14 @@
-mz/kelmira/servlet/QuartoServlet.class
+mz/kelmira/servlet/ComprovanteServlet.class
+mz/kelmira/servlet/ReservaServlet.class
 mz/kelmira/model/Quarto.class
 mz/kelmira/util/ConexaoDB.class
+mz/kelmira/servlet/DashboardServlet.class
+mz/kelmira/dao/ReservaDAO.class
+mz/kelmira/dao/ClienteDAO.class
+mz/kelmira/model/Reserva.class
 mz/kelmira/servlet/LogoutServlet.class
+mz/kelmira/model/Cliente.class
+mz/kelmira/servlet/QuartoServlet.class
+mz/kelmira/servlet/ClienteServlet.class
 mz/kelmira/servlet/LoginServlet.class
 mz/kelmira/dao/QuartoDAO.class
